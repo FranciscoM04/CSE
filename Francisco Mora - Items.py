@@ -30,4 +30,4 @@ class Characters(object):
         self.name = name
 
 class Enemies(Item):
-    def __init__(self):                  
+    def __init__(self):
