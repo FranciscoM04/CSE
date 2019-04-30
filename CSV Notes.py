@@ -23,6 +23,7 @@ def divisible_by _2(num: str):
 def all_16_digits(num: str):
     if not all_16_digits(num):
 
+
 # with open("Book1.csv") as old_csv:
 #     with open("MyNewFile.csv", 'w', newline='') as new_csv:
 #     reader = csv.reader(old_csv)
@@ -42,6 +43,11 @@ def reverse(string):
 
 reverse_it("Hello World")
 
+def reverse(s):
+  str = ""
+  for i in s:
+    str = i + str
+  return str
 
 with open("Book1.csv") as old_csv:
     with open("MyNewFile.csv", 'w', newline='') as new_csv:
@@ -58,5 +64,8 @@ print("Done")
 
 def valid_card_number(num: str):
 
-
 print(valid_card_number("9988951394582520"))
+
+list_num = list(number)
+for index in ranmge(len(number)):
+    list_num[index] = int(list_num[index])
