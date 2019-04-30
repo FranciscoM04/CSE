@@ -20,7 +20,7 @@ world_map = {
      'GIFT SHOP': {
         'NAME': "Gift Shop",
         'DESCRIPTION': "Now you have entered the Gift Shop. When entering the Gift Shop"
-                       "Locust are coming your way... SHOOT!!! Get to the hallway as fast"
+                       "Locust are coming your way... Shoot!!! Get to the hallway as fast"
                        "as you can before you get killed",
         'Paths': {
               'West': "HALLWAY2"
@@ -89,7 +89,7 @@ world_map = {
          }
      },
      'NORTH EXIT': {
-         'NAME': "Noth Exit",
+         'NAME': "North Exit",
          'DESCRIPTION': "We have now reached the first Exit. Look for another Exit"
                         "it's the last one that will let you finally get out of this"
                         "place before it explodes! You only have a couple seconds left.",
