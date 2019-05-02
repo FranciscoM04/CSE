@@ -22,6 +22,9 @@ def divisible_by _2(num: str):
 
 def all_16_digits(num: str):
     if not all_16_digits(num):
+        return False
+    if divisible_by_2(num) and divisible_by_3(num):
+        return False
 
 
 # with open("Book1.csv") as old_csv:
