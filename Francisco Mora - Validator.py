@@ -1,3 +1,5 @@
+import csv
+
 def valid_card_number(num: str):
 
 print(valid_card_number("9988951394582520"))

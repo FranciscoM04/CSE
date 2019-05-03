@@ -19,7 +19,6 @@ def divisible_by _2(num: str):
         return True
     return False
 
-
 def all_16_digits(num: str):
     if not all_16_digits(num):
         return False
