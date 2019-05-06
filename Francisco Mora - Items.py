@@ -1,3 +1,28 @@
+WarMachine = ('WarMachine', None, 'East', "War Machine... watch out this place could be filled with traps. Now we got to look for the")
+
+Hallway1 = ('Hallway1', None, None, 'South', "")
+
+GiftShop = ('GiftShop', None, None, None, 'West', "")
+
+Hallway2 = ('Hallway2', None, 'North')
+
+TicketEncounter = ('TicketEncounter', None, None, None, 'North', "")
+
+Hallway3 = ('Hallway3', None, 'East', "")
+
+Security = ('Security', None, None, 'South', "")    
+
+Hallway4 = ('Hallway4', None, None, None, 'East', "")
+
+PlateFormGate = ('PlateFormGate', None, 'West', "")
+
+PlateFormGate2 = ('PlateFormGate2', None, None, 'North', "")
+
+NorthExit = ('NorthExit', None, None, None, 'North', "")
+
+SouthExit = ('SouthExit', None, 'South', "")
+
+
 class Item(object):
     def __init__(self, name):
         self.name = name

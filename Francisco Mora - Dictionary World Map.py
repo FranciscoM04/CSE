@@ -90,9 +90,7 @@ world_map = {
      },
      'NORTH EXIT': {
          'NAME': "North Exit",
-         'DESCRIPTION': "We have now reached the first Exit. Look for another Exit"
-                        "it's the last one that will let you finally get out of this"
-                        "place before it explodes! You only have a couple seconds left.",
+         'DESCRIPTION': "We have now reached the North Exit",
          'PATHS': {
             'South': "SOUTH EXIT"
          }
