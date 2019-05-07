@@ -1,4 +1,5 @@
-WarMachine = ('WarMachine', None, 'East', "War Machine... watch out this place could be filled with traps. Now we got to look for the")
+WarMachine = ('WarMachine', None, 'East', "War Machine... watch out this place could be filled with traps. Now,"
+                                          "once we have entered we are looking for")
 
 Hallway1 = ('Hallway1', None, None, 'South', "")
 
@@ -10,7 +11,7 @@ TicketEncounter = ('TicketEncounter', None, None, None, 'North', "")
 
 Hallway3 = ('Hallway3', None, 'East', "")
 
-Security = ('Security', None, None, 'South', "")    
+Security = ('Security', None, None, 'South', "")
 
 Hallway4 = ('Hallway4', None, None, None, 'East', "")
 
