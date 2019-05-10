@@ -1,21 +1,19 @@
 import csv
 
 def validate(num: str):
-    if not all_16_digits(num):
-        return False
-    if divisible_by_2(num) and divisible_by _3(num):
+    if divisible_by_2(num) and divisible_by_3(num):
         return True
     return False
 
-def divisible_by _3(num: str):
+def validate(num: str):
     first_num = int(num[0])
     if first_num % 3 == 0:
         return True
     return False
 
-def divisible_by _2(num: str):
+def divisible_by_2(num: str):
     first_num = int(num[0])
-    if first_num % 2 == 0:
+    if first_num % 3 == 0:
         return True
     return False
 

@@ -16,3 +16,7 @@ with open("Book1.csv") as old_csv:
         if validate(old_number):
             writer.writerow(row)
 print("Done")
+
+print(valid_card_number("9988951394582520"))
+
+if valid_card_number()
