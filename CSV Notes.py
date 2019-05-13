@@ -67,5 +67,5 @@ def valid_card_number(num: str):
 print(valid_card_number("9988951394582520"))
 
 list_num = list(number)
-for index in ranmge(len(number)):
+for index in range(len(number)):
     list_num[index] = int(list_num[index])
