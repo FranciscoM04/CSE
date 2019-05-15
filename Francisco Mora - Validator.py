@@ -7,6 +7,14 @@ def valid_card_number(num: str):
     other_nums = num[0:15]
     print(other_nums)
 
+def reverse(string):
+    print(string[::-1])
+
+def reverse(s):
+  str = ""
+  for i in s:
+    str = i + str
+  return str
 
 print(valid_card_number("4556737586899855"))
 
