@@ -1,6 +1,6 @@
 import random
 import string
-automobiles = ["lamborghini", "bugatti", "corvette!", "ford", "ferrari", "porsche", "mclaren", "maserati", "scion",
+automobiles = ["lamborghini", "bugatti", "corvette", "ford", "ferrari", "porsche", "mclaren", "maserati", "scion",
                "tesla"]
 output = []
 guesses = 8

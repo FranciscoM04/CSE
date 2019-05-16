@@ -83,7 +83,7 @@ world_map = {
      },
      'Plate Form Gate2': {
          'NAME': "Plate Form Gate2",
-         'DESCRIPTION': "",
+         'DESCRIPTION': "We are now in second Plate From Gate where it is a little bit more challenging than the first",
          'PATHS': {
             'North': "NORTH EXIT"
          }
