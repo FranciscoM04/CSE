@@ -61,7 +61,8 @@ parking_lot = Room("Parking Lot", None, 'R19A')
 
 player = Player('R19A')
 
-WarMachine = ('WarMachine', None, 'East', "War Machine... watch out this place could be filled with traps. Now we got to look for the")
+WarMachine = ('WarMachine', None, 'East', "War Machine... watch out this place could be filled with traps. Now we got to look for the WarMachine"
+                                          "")
 
 Hallway1 = ('Hallway1', None, None, 'South', "")
 
